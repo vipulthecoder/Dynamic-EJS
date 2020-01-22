@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Customer List</title>
+    <link rel="stylesheet" type="text/css" href="public/style.css">
+  </head>
+
+  <body>
+
+    <h1> Customer List </h1>
+
+    <ul>
+      <% customers.forEach(customer => { %>
+      <li><%= customer.customerName %></li>
+      <% }); %>
+    </ul>
+
+  </body>
+
+</html>
